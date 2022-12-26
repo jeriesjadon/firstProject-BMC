@@ -14,9 +14,9 @@ def MyScrap(site):
 
 
 if __name__ == "__main__":
-
-    site = input("please enter the the HOSTNAME you want to scarp :")
-    path = input("please enter from where you want to start the scarping ")
-    full_path = site + path
+    full_path='http://example.webscraping.com'
+    #site = input("please enter the the HOSTNAME you want to scarp :")
+    #path = input("please enter from where you want to start the scarping ")
+    #full_path = site + path
     MyScrap(full_path)
 
